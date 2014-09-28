@@ -1,0 +1,7 @@
+scores={'is':'4','awesome':'3'}
+word = ['anurag','is','awesome']
+summ = 0
+for letter in word:
+    if(scores.has_key(str(letter))):  
+        summ += int(scores[str(letter)])
+print summ,'\n'
